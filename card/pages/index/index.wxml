@@ -1,0 +1,3 @@
+<view class="title">Hello {{wording}}!</view>
+<image mode="widthFix" src="../../png/111.png"></image>
+<button bindtap="onClick">change</button>
