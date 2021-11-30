@@ -1,6 +1,6 @@
 <view class="indexContainer">
     <image class="avatarUrl" src="../../png/TX.jpg"></image>
-    <text class="userName">头像</text>
+    <text class="userName">{{msg}}</text>
     <view class="goStudy">
         <text>Hello World</text>
     </view>

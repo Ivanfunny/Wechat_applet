@@ -5,14 +5,20 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        msg:'初始化测试数据'
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        console.log('onLoad()');
+        console.log(this.data.msg)
+        setTimeou(()=>{
+            this.setData({msg:'修改后的测试数据'
+        })
+        })
+        console.log(this.data.msg)
     },
 
     /**

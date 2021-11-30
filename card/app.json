@@ -1,10 +1,11 @@
 {
     "pages": [
-      "page/index/index"
+        "page/index/index"
     ],
     "window": {
-      "navigationBarBackgroundColor": "#ffffff",
-      "navigationBarTextStyle": "black",
-      "navigationBarTitleText": "Test"      
-    }
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Test"
+    },
+    "sitemapLocation": "sitemap.json"
 }
