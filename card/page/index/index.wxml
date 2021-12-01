@@ -1,7 +1,10 @@
 <view class="indexContainer">
     <image class="avatarUrl" src="../../png/TX.jpg"></image>
     <text class="userName">{{msg}}</text>
-    <view class="goStudy">
-        <text>Hello World</text>
+    <view class="goStudy" catchtap="onParents">
+        <text catchtap="onChildren">Hello World</text>
     </view>
+    <!-- <view class="goStudy" bindtap="onParents">
+        <text bindtap="onChildren">Hello World</text>
+    </view> -->
 </view>
