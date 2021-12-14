@@ -1,6 +1,7 @@
 {
     "pages": [
-        "page/index/index"
+        "page/index/index",
+        "page/log/logs"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

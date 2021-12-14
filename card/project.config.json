@@ -47,7 +47,7 @@
         "useCompilerPlugins": false
     },
     "compileType": "miniprogram",
-    "libVersion": "2.19.4",
+    "libVersion": "2.15.0",
     "appid": "wxc197f6fc79850491",
     "projectname": "card",
     "debugOptions": {

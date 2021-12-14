@@ -1,10 +1,16 @@
 <view class="indexContainer">
     <image class="avatarUrl" src="../../png/TX.jpg"></image>
     <text class="userName">{{msg}}</text>
-    <view class="goStudy" catchtap="onParents">
+    <view class="goStudy" catchtap="toLogs">
         <text catchtap="onChildren">Hello World</text>
     </view>
+    <button bindgetuserinfo="getUI" open-type="getUserInfo">获取用户授权</button>
+    <!-- 测试事件绑定：冒泡 -->
     <!-- <view class="goStudy" bindtap="onParents">
         <text bindtap="onChildren">Hello World</text>
+    </view> -->
+    <!-- 测试事件绑定：捕获 -->
+    <!-- <view class="goStudy" catchtap="onParents">
+        <text catchtap="onChildren">Hello World</text>
     </view> -->
 </view>
